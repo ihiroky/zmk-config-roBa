@@ -29,6 +29,8 @@
 #define JP_EISU           LANGUAGE_2        // 英数
 #define JP_ZENHAN         GRAVE             // 半角/全角
 #define JP_ZENKAKUHANKAKU GRAVE             // 半角/全角
+#define JP_HENKAN         INT_HENKAN        // 変換
+#define JP_MUHENKAN       INT_MUHENKAN      // 無変換
 #define JP_COMMA          COMMA             // ,
 #define JP_LESS_THAN      LESS_THAN         // <
 #define JP_LT             LT                // <
@@ -37,4 +39,3 @@
 #define JP_GT             GT                // >
 #define JP_SLASH          SLASH             // /
 #define JP_QUESTION       QUESTION          // ?
-
