@@ -83,8 +83,8 @@
         SYMBOL {
             bindings = <
 &kp JP_PLUS   &kp JP_ASTERISK  &kp JP_LT        &kp JP_GT   &kp JP_YEN                                       &kp JP_QUOTE      &kp JP_LBRACKET  &kp JP_RBRACKET  &kp JP_DOLLAR       &kp JP_HASH
-&kp JP_MINUS  &kp JP_SLASH     &kp JP_QUESTION  &kp JP_AT   &kp JP_CARET  &trans                     &trans  &kp JP_DQUOTE     &kp JP_LPAREN    &kp JP_RPAREN    &kp JP_AMPERSAND    &kp JP_TILDE
-&kp JP_EQUAL  &kp JP_PERCENT   &kp JP_COMMA     &kp JP_DOT  &kp JP_PIPE   &trans                     &trans  &kp JP_BACKQUOTE  &kp JP_LBRACE    &kp JP_RBRACE    &kp JP_EXCLAMATION  &kp JP_UNDERSCORE
+&kp JP_MINUS  &kp JP_SLASH     &kp JP_QUESTION  &kp JP_AT   &kp JP_PIPE   &trans                     &trans  &kp JP_DQUOTE     &kp JP_LPAREN    &kp JP_RPAREN    &kp JP_AMPERSAND    &kp JP_TILDE
+&kp JP_EQUAL  &kp JP_PERCENT   &kp JP_COMMA     &kp JP_DOT  &kp JP_CARET  &trans                     &trans  &kp JP_BACKQUOTE  &kp JP_LBRACE    &kp JP_RBRACE    &kp JP_EXCLAMATION  &kp JP_UNDERSCORE
 &kp JP_COLON  &trans           &trans           &kp LCTRL   &trans        &lt 4 DEL                  &trans  &trans                                                                  &kp JP_SEMICOLON
             >;
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
@@ -92,8 +92,8 @@
 
         FUNCTION_CURSOR {
             bindings = <
-&kp F1        &kp F2   &kp F3   &kp F4   &kp F5                                   &kp PRINTSCREEN  &kp C_BRIGHTNESS_INC  &kp C_BRIGHTNESS_DEC  &kp F20          &kp C_MUTE
-&kp F6        &kp F7   &kp F8   &kp F9   &kp F10  &trans                  &trans  &kp LEFT_ARROW   &kp DOWN_ARROW        &kp UP_ARROW          &kp RIGHT_ARROW  &kp C_VOLUME_UP
+&kp F1        &kp F2   &kp F3   &kp F4   &kp F5                                   &kp PRINTSCREEN  &kp C_BRIGHTNESS_INC  &kp C_BRIGHTNESS_DEC  &kp F20          &kp C_VOLUME_UP
+&kp F6        &kp F7   &kp F8   &kp F9   &kp F10  &trans                  &trans  &kp LEFT_ARROW   &kp DOWN_ARROW        &kp UP_ARROW          &kp RIGHT_ARROW  &kp C_MUTE
 &kp F11       &kp F12  &kp F13  &kp F14  &kp F15  &trans                  &trans  &kp HOME         &kp PAGE_DOWN         &kp PAGE_UP           &kp END          &kp C_VOLUME_DOWN
 &kp LEFT_GUI  &trans   &trans   &trans   &trans   &trans                  &trans  &kp RIGHT_ALT                                                                 &trans
             >;
@@ -102,10 +102,10 @@
 
         NUMBER {
             bindings = <
-&trans          &trans        &kp LEFT_SHIFT    &kp RIGHT_SHIFT    &trans                                          &kp JP_PLUS   &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp JP_ASTERISK
-&kp JP_PERCENT  &kp LEFT_GUI  &kp LEFT_CONTROL  &kp RIGHT_CONTROL  &kp RGUI  &trans                  &trans        &kp JP_MINUS  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp JP_SLASH
-&kp JP_CARET    &trans        &kp LEFT_ALT      &kp RIGHT_ALT      &trans    &trans                  &trans        &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp JP_EQUAL
-&trans          &trans        &trans            &trans             &trans    &trans                  &kp JP_COMMA  &kp JP_DOT                                              &trans
+&kp LEFT_GUI    &kp RIGHT_GUI  &kp LEFT_CONTROL  &kp RIGHT_CONTROL  &trans                                                 &kp JP_PLUS   &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp JP_ASTERISK
+&kp JP_PERCENT  &mkp MB2       &mkp MB3          &mkp MB1           &kp LEFT_SHIFT   &trans                  &trans        &kp JP_MINUS  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp JP_SLASH
+&kp JP_CARET    &mkp MB4       &trans            &mkp MB5           &kp RIGHT_SHIFT  &trans                  &trans        &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp JP_EQUAL
+&kp LEFT_ALT    &kp RIGHT_ALT  &trans            &trans             &trans           &trans                  &kp JP_COMMA  &kp JP_DOT                                              &trans
             >;
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
         };
