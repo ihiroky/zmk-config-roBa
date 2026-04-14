@@ -102,10 +102,10 @@
 
         NUMBER {
             bindings = <
-&kp LEFT_GUI    &kp RIGHT_GUI  &kp LEFT_CONTROL  &kp RIGHT_CONTROL  &trans                                                 &kp JP_PLUS   &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp JP_ASTERISK
-&kp JP_PERCENT  &mkp MB2       &mkp MB3          &mkp MB1           &kp LEFT_SHIFT   &trans                  &trans        &kp JP_MINUS  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp JP_SLASH
-&kp JP_CARET    &mkp MB4       &trans            &mkp MB5           &kp RIGHT_SHIFT  &trans                  &trans        &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp JP_EQUAL
-&kp LEFT_ALT    &kp RIGHT_ALT  &trans            &trans             &trans           &trans                  &kp JP_COMMA  &kp JP_DOT                                              &trans
+&kp LEFT_GUI    &kp RIGHT_GUI  &kp LEFT_CONTROL  &kp RIGHT_CONTROL  &trans                                               &kp JP_PLUS   &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp JP_ASTERISK
+&kp JP_PERCENT  &mkp MB2       &mkp MB3          &mkp MB1           &kp LEFT_SHIFT   &trans                  &trans      &kp JP_MINUS  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp JP_SLASH
+&trans          &mkp MB4       &trans            &mkp MB5           &kp RIGHT_SHIFT  &trans                  &trans      &kp JP_CARET  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp JP_EQUAL
+&kp LEFT_ALT    &kp RIGHT_ALT  &trans            &trans             &trans           &trans                  &kp JP_DOT  &kp NUMBER_0                                            &kp JP_COMMA
             >;
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
         };
